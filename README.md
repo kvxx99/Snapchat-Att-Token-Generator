@@ -2,8 +2,7 @@
 
 This repository provides a Python script that mimics the process used to generate a Snapchat `x-snapchat-att` token. The token is produced by encrypting an "Att" message with AES‑GCM using a randomly generated key and a specially constructed initialization vector (IV).
 
-> **Disclaimer:** This implementation is intended for educational and research purposes only. It is a simplified simulation of the token generation process and is not affiliated with or endorsed by Snapchat.
-
+> **Disclaimer:** No share this
 ## Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
