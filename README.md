@@ -10,12 +10,6 @@ This repository provides a Python script that mimics the process used to generat
 - [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
-- [Repository Structure](#repository-structure)
-- [Finding This Project](#finding-this-project)
-- [Contact](#contact)
-- [Contributing](#contributing)
-- [License](#license)
-- [Disclaimer](#disclaimer)
 
 ## Features
 
@@ -24,16 +18,9 @@ This repository provides a Python script that mimics the process used to generat
 - **AES‑GCM Encryption:** Encrypts the padded "Att" message using AES‑GCM.
 - **Packaging & Encoding:** Combines the key with the ciphertext, wraps the output in a custom binary format, and encodes it as a URL‑safe Base64 string.
 
-## Requirements
-
-- Python 3.6 or higher
-- [PyCryptodome](https://pycryptodome.readthedocs.io/en/latest/) library
-
-## Installation
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/riyadmondol2006/Snapchat-Att-Token-Generator.git
    cd Snapchat-Att-Token-Generator
    ```
 
@@ -90,31 +77,4 @@ In addition to the Python script, this repository includes a folder containing s
   - `ios.js` – JavaScript code for hooking and logging on the iOS client.
 - **android/**
   - `Snapchat.java` – Core logic for Snapchat operations on Android.
-  - `SnapchatAndroid.java` – Android client implementation including att-token generation and debugging hooks.
-
-## Finding This Project
-
-You can easily find this project on GitHub by visiting:
-
-```
-https://github.com/riyadmondol2006/Snapchat-Att-Token-Generator
-```
-
-## Contact
-
-For any questions, issues, or project opportunities, please contact me:
-
-- **Email:** riyadmondol2006@gmail.com  
-- **Telegram:** [riyadmondol2006](https://t.me/riyadmondol2006)
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Please feel free to open an issue or submit a pull request for improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This code is provided for educational purposes only. It is a simplified representation of the process used to generate a Snapchat att-token and does not capture the full complexity or security of the actual implementation. Use it at your own risk.
+  - `SnapchatAndroid.java` – Android client implementation including att-token generation and debugging hooks
